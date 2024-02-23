@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Details</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Silverscreen Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="hub.html">Home</a></li>
+                <li><a href="Movies.html">Movies</a></li>
+                <li><a href="#">TV Shows</a></li>
+                <li><a href="#">Genres</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Search movies and TV shows...">
+            <button onclick="searchMovies()">Search</button>
+        </div>
+        
+    <div class="movie-details" id="movieDetails"></div>
+    <div class="trailer">
+        
+        
+    </div>
+    
+    </header>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="movie-details.js"></script>
+</body>
+</html>

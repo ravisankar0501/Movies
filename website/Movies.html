@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <!-- ... (header content) ... -->
+    </header>
+
+    <main>
+        <section class="content-list">
+            <!-- ... (content-list content) ... -->
+        </section>
+
+        <div class="content-container">
+            <section class="movie-list-section">
+                <div class="filters-and-movies-container">
+                    <div class="filter-options-section">
+                        <h2>Filter Options</h2>
+                        <div class="filter-options">
+                            <label>Show me</label>
+                            <select id="showOptions">
+                                <option value="everything">Everything</option>
+                                <option value="notSeen">Movies I Haven't Seen</option>
+                                <option value="seen">Movies I Have Seen</option>
+                            </select>
+
+                            <label>Genres</label>
+                            <select id="genreOptions">
+                                <option value="Action">Action</option>
+                                <option value="Adventure">Adventure</option>
+                                <option value="Animation">Animation</option>
+                                <!-- Add other genre options here -->
+                            </select>
+
+                            <label>Certification</label>
+                            <select id="certificationOptions">
+                                <option value="NR">NR</option>
+                                <option value="G">G</option>
+                                <option value="PG">PG</option>
+                                <!-- Add other certification options here -->
+                            </select>
+
+                            <label>Language</label>
+                            <input type="text" id="languageInput">
+
+                            <label>User Score</label>
+                            <input type="number" id="userScoreInput">
+
+                            <label>Minimum User Votes</label>
+                            <input type="number" id="userVotesInput">
+
+                            <label>Runtime</label>
+                            <input type="number" id="runtimeInput">
+
+                            <label>Keywords</label>
+                            <input type="text" id="keywordsInput">
+
+                            <button id="applyFilters">Apply Filters</button>
+                        </div>
+                    </div>
+                    <div class="movie-list-and-load-button">
+                        <div id="movieList" class="movie-list"></div>
+                        <button class="load-more-btn" id="loadMoreBtn">Load More</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <!-- ... (footer content) ... -->
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="javascript.js"></script>
+</body>
+</html>

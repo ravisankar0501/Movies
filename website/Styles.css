@@ -1,0 +1,268 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4fae9; /* Light gray background */
+}
+
+header {
+    background-color: #c2c2db; /* Dark gray header background */
+    color: #c94524dc;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.search-bar {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.search-bar input[type="text"] {
+    padding: 8px;
+    width: 40%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    padding: 8px 15px;
+    background-color: #f8f8f8; /* Dark gray search button background */
+    color: rgb(41, 38, 38);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main {
+    padding: 20px;
+}
+
+.content-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.movie-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(218, 174, 174, 0.2);
+    transition: transform 0.2s;
+    width: 200px;
+}
+
+.movie-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.movie-card h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.movie-card p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+        .movie-card {
+            display: inline-block;
+            width: 200px;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+        }
+        .movie-card img {
+            max-width: 100%;
+            height: auto;
+        }
+        .movie-details {
+            margin-top: 10px;
+            padding: 5px;
+            background-color: #f5f5f5;
+        }
+        .actors-list {
+            list-style: none;
+            padding: 0;
+        }
+        .actor-item {
+            display: flex;
+            align-items: center;
+            margin: 5px 0;
+        }
+        .actor-image {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            margin-right: 10px;
+        }
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .movie-details {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+       /* Add your CSS styles here */
+.movie-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.movie-poster {
+    max-width: 200px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.movie-header-content {
+    flex: 1;
+}
+
+.movie-description {
+    margin-bottom: 20px;
+}
+
+.actors-list {
+    list-style: none;
+    padding: 0;
+}
+
+/* ... (Your existing CSS styles) */
+
+.side-by-side-actors {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px; /* Adjust the gap between actors if needed */
+}
+
+.actor-item {
+    display: inline-block;
+    margin-right: 50px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.actor-image {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin-bottom: 5px;
+}
+
+ 
+        .trailer {
+            text-align: center;
+        }
+        
+        .trailer h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        
+        .trailer button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        
+        .trailer button:hover {
+            background-color: #0056b3;
+        }
+        
+        .movie-card-link {
+            text-decoration: none; /* Remove default underline style */
+            color: inherit; /* Inherit text color from parent */
+            /* Add any additional styling you want for the link */
+        }
+
+
+/* ... (your existing styles) ... */
+
+.filters-and-movies-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .filter-options-section {
+    flex: 1;
+    padding: 30px;
+    background-color: #f5f5f5;
+    box-shadow: 0 0 5px rgba(255, 254, 254, 0.2);
+    border-radius: 5px;
+    font-size: 16px;
+    font-style: bold;
+    
+      
+
+  }
+  
+  .movie-list-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .movie-card {
+    margin: 25px;
+  }
+  
+  
+/* ... (your other styles) ... */
+
+.load-more-btn {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 40px;
+    background-color: #b2dcdd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
