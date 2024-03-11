@@ -31,7 +31,7 @@ function createButton(text, clickHandler) {
 
 function createMovieCard(movie) {
     const movieCardLink = document.createElement('a'); 
-    movieCardLink.href = `movie-details.html?id=${movie.id}`; 
+    movieCardLink.href = `moviedetails.html?id=${movie.id}`; 
     movieCardLink.classList.add('movie-card-link'); 
 
     const movieCard = document.createElement('div');
