@@ -57,7 +57,7 @@ function createMovieCard(movie) {
 function createDetailsLink(text, movieId) {
     const link = document.createElement('a');
     link.textContent = text;
-    link.href = `movie-details.html?id=${movieId}`; // Link to the movie details page with query parameter
+    link.href = `moviedetails.html?id=${movieId}`; // Link to the movie details page with query parameter
     return link;
 }
 
